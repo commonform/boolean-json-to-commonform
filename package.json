@@ -1,0 +1,15 @@
+{
+  "name": "boolean-json-to-commonform",
+  "version": "0.0.0",
+  "description": "convert Boolean JSON expressions to conditions in Common Form",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "commonform/boolean-json-to-commonform",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "defence-cli": "^1.0.1",
+    "replace-require-self": "^1.0.0"
+  },
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
