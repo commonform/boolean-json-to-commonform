@@ -1,6 +1,6 @@
 {
   "name": "boolean-json-to-commonform",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "convert Boolean JSON expressions to conditions in Common Form",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "commonform/boolean-json-to-commonform",
