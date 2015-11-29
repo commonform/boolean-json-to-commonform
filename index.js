@@ -5,14 +5,14 @@ function booleanJSONToCommonForm(argument) {
     return { content: argument } }
   else if ('and' in argument) {
     return {
-      content: [ 'all of the following are true:' ]
+      content: [ 'all of these are the case:' ]
         .concat(
           argument.and.map(function(conjunct) {
             return {
               form: booleanJSONToCommonForm(conjunct) } })) } }
   else if ('or' in argument) {
     return {
-      content: [ 'any of the following is true:' ]
+      content: [ 'any of these is the case:' ]
         .concat(
           argument.or.map(function(disjunct) {
             return {
