@@ -1,7 +1,7 @@
 {
   "name": "boolean-json-to-commonform",
   "description": "convert Boolean JSON expressions to conditions in Common Form",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
     "defence-cli": "^1.0.1",
