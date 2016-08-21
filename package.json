@@ -1,15 +1,18 @@
 {
   "name": "boolean-json-to-commonform",
-  "version": "0.2.0",
   "description": "convert Boolean JSON expressions to conditions in Common Form",
+  "version": "0.2.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "repository": "commonform/boolean-json-to-commonform",
-  "license": "Apache-2.0",
   "devDependencies": {
     "defence-cli": "^1.0.1",
     "replace-require-self": "^1.0.0",
     "standard": "^8.0.0-beta.5"
   },
+  "files": [
+    "index.js"
+  ],
+  "license": "Apache-2.0",
+  "repository": "commonform/boolean-json-to-commonform",
   "scripts": {
     "lint": "standard"
   }
